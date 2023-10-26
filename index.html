@@ -4,34 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pengiun fashion with tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="text-[#FFFBF0]">
-        <!-- nav bar start -->
-        <nav>
-            <div class="">
-                <img src="icons/logo.png" alt="">
+    <!-- header part start -->
+   <header class="px-40 pt-8 bg-[#FFFBF0]">
+    <div class="flex flex-col justify-between items-center ">
+        <div class="w-72 h-14">
+            <img src="icons/logo.png" alt="">
+        </div>
+        <!-- navbar part start -->
+        <div class="mb-3">
+            <ul class="flex flex-col mb-3 justify-between items-center font-sans space-x-12">
+                <li><a href="#" class="group/item hover:bg-slate-300">Home</a></li>
+                <li><a href="#" class="group/item hover:bg-slate-300">Products</a></li>
+                <li><a href="#" class="group/item hover:bg-slate-300">About us</a></li>
+                <li><a href="#" class="group/item hover:bg-slate-300">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- navbar part end -->
+    </div>
+    <!-- banner part start -->
+    <section>
+        <div class="flex justify-between items-center">
+            <div class="my-5">
+                <h1> <span class="text-[#FABE4C] text-7xl font-bold uppercase mb-4 font-sans">Be the Penguins</span> <br>
+                    <span class="text-[#363958] mb-10 text-7xl font-semibold uppercase font-sans">of winter</span></h1>
+                    <p class="mt-4 text-base font-normal text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br> 
+                        and typesetting industry.</p>
+                        <button class="uppercase h-14 w-44 rounded-md mt-10 p-4 text-white bg-[#A4BC46]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>                              
+                            Buy Now</button>
+            </div>
+            <div class="mb-9">
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- banner part end -->
+   </header>
+   <!-- header part end -->
+   <!-- main part start -->
+    <main class="px-40 pt-8 bg-[#FFFFFF]">
+        <div class="py-8">
+            <h1 class="uppercase text-5xl font-medium mb-11">Woman Jacket</h1>
+        </div>
+        <div>
+            <div class="h-auto w-auto">
+                <img src="images/jacket-1.png" alt="">
             </div>
             <div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+                <h3>Ladies Jacket </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur asperiores est minima doloremque, vel distinctio?</p>
+                <h4>$324</h4>
+                <button>
+                    -----------
+                    Buy now
+                </button>
             </div>
-        </nav>
-        <!-- navbar end -->
-        <!-- banner part start -->
-        <div>
-            
-        </div>
-        <div>
 
         </div>
-        <!-- banner part end -->
-    </header>
-    <main>
+        
+
+
+
+
 
     </main>
     <footer>
